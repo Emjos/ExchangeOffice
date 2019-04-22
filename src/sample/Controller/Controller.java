@@ -45,7 +45,7 @@ public class Controller implements Initializable {
     @FXML
     private  ListView<Currency> ToList;
 
-ObservableList<Currency> list = FXCollections.observableArrayList(USD,EUR,PLN,GBP);
+ObservableList<Currency> list = FXCollections.observableArrayList(USD,EUR,PLN,GBP,UAH);
     @FXML
     void setFromText(MouseEvent event) {
         FromString.setVisible(true);

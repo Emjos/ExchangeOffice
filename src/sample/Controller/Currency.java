@@ -7,7 +7,8 @@ public enum Currency {
     USD("USD"),
     PLN("PLN"),
     EUR("EUR"),
-    GBP("GBP");
+    GBP("GBP"),
+    UAH("UAH");
 
 
     public String name;
